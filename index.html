@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Protfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaquaries.css">
 </head>
@@ -35,6 +35,81 @@
             </div>
         </div>
     </nav>
+
+    <!-- PROFILE SECTION -->
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="assets/profile-pic.png" alt="John Doe profile picture">
+        </div>
+        <div class="section_test">
+            <p class="section_test_p1">Hello i'm</p>
+            <h1 class="title">John Doe</h1>
+            <p class="section_test_p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download Cv</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="assets/linkedin.png" alt="My linkedin profile" 
+                class="icon" onclick="location.href='//www.linkedin.com/in/johnnysky'">
+                <img src="assets/github.png" alt="My Github profile" 
+                class="icon" onclick="location.href='//github.com/Johnnysky2700'">
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION  -->
+     <section id="about">
+          <p class="section section_test_p1">Get To Know More</p>
+          <h1 class="title">About Me</h1>
+          <div class="section-container">
+            <div class="section_pic-container">
+                <img src="assets/about-pic.png"
+                 alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="assets/experience.png" 
+                        alt="Exprerience Icon" class="icon">
+                        <h3>Exprerience</h3>
+                        <p>2+ years <br> Frontend Developer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="assets/education.png" 
+                        alt="Education Icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.sc. Bachelors Degree <br> M.sc. Master Degree</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>i'm passionate about crafting sleek, responsive, and user-friendly web experiences,
+                       I specialize in turning ideas into interactive digital solutions. As a frontend 
+                       developer, I bring designs to life with clean, efficient, and scalable code. My
+                       expertise lies in HTML, CSS, JavaScript, and modern frameworks
+                       Beyond code, I thrive on problem-solving, optimizing performance, and staying 
+                       ahead of the latest trends in web development. I focus on creating 
+                       high-performance applications that leave a lasting impression.
+                       </p>
+                </div>
+            </div>
+          </div>
+          <img src="assets/arrow.png" alt="Arrow Icon" class="icon arrow" 
+          onclick="location.href='./#experience'">
+     </section>
+    <!-- EXPERRIENCE SECTION -->
+    <section id="experience">
+        <p class="section_text_p3">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-contaniers">
+                    <h2 class="experience -sub-title">Frontend Development</h2>
+                    <div class="article-container"></div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
