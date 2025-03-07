@@ -14,7 +14,7 @@
             <ul class="nav-links">
                <li><a href="#about">About</a></li>
                <li><a href="#experience">Exprerience</a></li>
-               <li><a href="#project">Project</a></li>
+               <li><a href="#projects">Projects</a></li>
                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -28,9 +28,9 @@
                 <span></span>
             </div>
             <div class="meun-links">
-                <li><a href="#about" onclick="toggleMeun()">About</a></li>
+               <li><a href="#about" onclick="toggleMeun()">About</a></li>
                <li><a href="#experience" onclick="toggleMeun()">Exprerience</a></li>
-               <li><a href="#project" onclick="toggleMeun()">Project</a></li>
+               <li><a href="#projects" onclick="toggleMeun()">Project</a></li>
                <li><a href="#contact" onclick="toggleMeun()">Contact</a></li>
             </div>
         </div>
@@ -41,10 +41,10 @@
         <div class="section_pic-container">
             <img src="assets/profile-pic.png" alt="John Doe profile picture">
         </div>
-        <div class="section_test">
-            <p class="section_test_p1">Hello i'm</p>
+        <div class="section_text">
+            <p class="section_text_p1">Hello i'm</p>
             <h1 class="title">John Doe</h1>
-            <p class="section_test_p2">Frontend Developer</p>
+            <p class="section_text_p2">Frontend Developer</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download Cv</button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
@@ -60,7 +60,7 @@
 
     <!-- ABOUT SECTION  -->
      <section id="about">
-          <p class="section section_test_p1">Get To Know More</p>
+          <p class="section section_text_p1">Get To Know More</p>
           <h1 class="title">About Me</h1>
           <div class="section-container">
             <div class="section_pic-container">
@@ -99,17 +99,195 @@
      </section>
     <!-- EXPERRIENCE SECTION -->
     <section id="experience">
-        <p class="section_text_p3">Explore My</p>
+        <p class="section_text_p1">Explore My</p>
         <h1 class="title">Experience</h1>
         <div class="experience-details-container">
             <div class="about-containers">
-                <div class="details-contaniers">
-                    <h2 class="experience -sub-title">Frontend Development</h2>
-                    <div class="article-container"></div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/checkmark.png" 
+                            alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" 
+                            alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" 
+                            alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" 
+                            alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" 
+                            alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" 
+                            alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/checkmark.png" 
+                            alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>PostgreSQL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" 
+                            alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" 
+                            alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Express JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" 
+                            alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
                 </div>
             </div>
         </div>
+        <img src="assets/arrow.png" alt="Arrow Icon" class="icon arrow" 
+        onclick="location.href='./#experience'">
     </section>
+    <!-- PROJECT SECTION -->
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="assets/project-1.png" 
+                alt="Project-1" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='//github.com/Johnnysky2700'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='//github.com/Johnnysky2700'">
+                    Live Demo</button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="assets/project-2.png" 
+                alt="Project-2" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='//github.com/Johnnysky2700'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='//github.com/Johnnysky2700'">
+                    Live Demo</button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="assets/project-3.png" 
+                alt="Project-3" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='//github.com/Johnnysky2700'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='//github.com/Johnnysky2700'">
+                    Live Demo</button>
+            </div>
+        </div>
+        </div>
+        </div>
+         <img src="assets/arrow.png" alt="Arrow Icon" class="icon arrow" 
+        onclick="location.href='./#experience'">
+    </section>
+    <!-- CONTACT SECTION -->
+     <section id="contact">
+          <p class="section_text_p1">Get In Touch</p>
+          <h1 class="title">Contact Me</h1>
+          <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="assets/email.png" 
+                alt="Email Icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="assets/linkedin.png" 
+                alt="Linkedin Icon" class="icon contact-icon">
+                <p><a href="//www.linkedin.com/in/johnnysky">Linkedin</a></p>
+            </div>
+          </div>
+     </section>
+    <!-- FOOTER SECTION -->
+     <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#experience">Exprerience</a></li>
+                   <li><a href="#projects">Projects</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Oluwaseyi Johnson. All Rights Reserved</p>
+     </footer>
     <script src="script.js"></script>
 </body>
 </html>
