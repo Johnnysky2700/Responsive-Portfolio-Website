@@ -173,6 +173,10 @@ section{
     margin: auto 0;
 }
 
+.profile-pic1{
+    border-radius: 2rem;
+}
+
 .section_text{
     align-self: center;
     text-align: center;
@@ -211,7 +215,7 @@ section{
 
 /* BUTTONS */
 .btn-container{
-    display: flex;
+    display: none;
     justify-content: center;
     gap: 1rem;
 }
@@ -245,6 +249,7 @@ section{
 
 .btn-color-2{
     background: none;
+
 }
 
 .btn-color-2:hover{
