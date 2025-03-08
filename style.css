@@ -174,7 +174,9 @@ section{
 }
 
 .profile-pic1{
-    border-radius: 2rem;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
 }
 
 .section_text{
@@ -299,6 +301,10 @@ section{
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+}
+
+.details-container-2{
+    display: none;
 }
 
 .section-container{
