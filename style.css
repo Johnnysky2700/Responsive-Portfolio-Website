@@ -302,7 +302,7 @@ section{
 }
 
 .details-container-2{
-    display: none;
+    display: flex;
 }
 
 .section-container{
