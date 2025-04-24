@@ -301,9 +301,9 @@ section{
     text-align: center;
 }
 
-.details-container-2{
-    display: flex;
-}
+/* .details-container-2{
+    display: none;
+} */
 
 .section-container{
     gap: 4rem;
