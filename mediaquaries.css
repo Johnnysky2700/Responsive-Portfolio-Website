@@ -2,7 +2,6 @@
     #profile{
         height: 83vh;
         margin-bottom: 5rem;
-        padding-bottom: 80px;
     }
     .about-containers{
         flex-wrap: wrap;
@@ -46,8 +45,9 @@
         height: 40vh;
     }
     #profile{
-        height: 83vh;
+        height: 75vh;
         margin-bottom: 0;
+        padding-bottom: 1rem;
     }
     article{
         font-size: 1rem;
